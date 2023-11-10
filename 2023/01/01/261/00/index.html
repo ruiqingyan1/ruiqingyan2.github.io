@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Blog个人博客 | 花夕 &amp; Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="详细说明了怎么搭建个人博客，从0开始搭建自己的博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blog个人博客">
+<meta property="og:url" content="http://next.ruiqingyan.com/2023/01/01/261/00/index.html">
+<meta property="og:site_name" content="花夕 &amp; Blog">
+<meta property="og:description" content="详细说明了怎么搭建个人博客，从0开始搭建自己的博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-01T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-10T04:43:39.544Z">
+<meta property="article:author" content="花夕">
+<meta property="article:tag" content="兴趣课">
+<meta property="article:tag" content="Blog个人博客">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="花夕 & Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">花夕 &amp; Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">远赴人间惊鸿宴，一睹人间盛世颜</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://next.ruiqingyan.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-261/00" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/01/01/261/00/" class="article-date">
+  <time class="dt-published" datetime="2023-01-01T00:00:00.000Z" itemprop="datePublished">2023-01-01</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%85%B4%E8%B6%A3%E8%AF%BE/">兴趣课</a>►<a class="article-category-link" href="/categories/%E5%85%B4%E8%B6%A3%E8%AF%BE/Blog%E5%85%A8%E7%A8%8B%E6%90%AD%E5%BB%BA/">Blog全程搭建</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Blog个人博客
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>🍁性质类似把静态的页面放到github上，github会这个公开项目解析成github page（所有人都可以访问）</p>
+<p>🍁然后把github page解析到我们的域名，别人就可以通过域名访问我们的博客（访问域名变成我们的）</p>
+<p>🍁总的来说，这样搭建个人博客基本0成本，没什么难度，很适合当一个计算机入门项目来做。</p>
+<p>总体来说分类四部分：</p>
+<ul>
+<li>1、本地部署hexo博客，本地博客推送到github生成在线的github page，把github page解析到自己的域名<ul>
+<li>本地部署示例🚀<a href="ruiqingyan2.github.io">ruiqingyan2.github.io</a>，解析域名后示例🚀<a href="test.ruiqingyan.com">test.ruiqingyan.com</a></li>
+</ul>
+</li>
+<li>2、使用hexo的butterfly主题配置自己的博客，对butterfly主题的博客进行优化，推送本地项目到github<ul>
+<li>主题配置butterfly优化示例🚀<a href="ruiqingyan.com">ruiqingyan.com</a></li>
+</ul>
+</li>
+<li>3、使用hexo的anzhiyu主题配置自己的博客，对anzhiyu主题的博客进行优化，推送本地项目到github<ul>
+<li>主题配置anzhiyu优化示例🚀<a href="dev.ruiqingyan.com">dev.ruiqingyan.com</a></li>
+</ul>
+</li>
+<li>4、其他博客相关资源的准备、配置和优化，比如用Python批量爬图，markdown文档怎么写等等<ul>
+<li>一些资源、优化、配置相关的便捷操作🌹⭐️</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h1 id="1、使用Hexo部署自己的在线博客"><a href="#1、使用Hexo部署自己的在线博客" class="headerlink" title="1、使用Hexo部署自己的在线博客"></a>1、使用Hexo部署自己的在线博客</h1><blockquote>
+<p>本地部署hexo博客，本地博客推送到github生成在线的github page，把github page解析到自己的域名</p>
+<p>主要参考<a target="_blank" rel="noopener" href="https://www.zhihu.com/column/c_1201860091307458560">枫叶</a>和个人经验 ，他的博客停更很久了，推送后例子🚀<a href="test.ruiqingyan.com">test.ruiqingyan.com</a></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/01/2/6/1/01/">1、注册邮箱</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/02/2/6/1/02/">2、注册github</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/03/2/6/1/03/">3、配置本地git，绑定github</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/04/2/6/1/04/">4、配置Node.js</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/05/2/6/1/05/">5、部署本地Hexo项目</a> （部署后默认访问地址是：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> ）</li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/06/2/6/1/06/">6、项目推送到github上线</a> （推送后默认访问地址是：<a target="_blank" rel="noopener" href="https://ruiqingyan2.github.io)/">https://ruiqingyan2.github.io）</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/07/2/6/1/07/">7、购买域名</a></li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/08/2/6/1/08/">8、解析域名</a> （解析后githubpage会映射到自己购买的域名）</li>
+<li><a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/09/261/09/">9、基础配置</a></li>
+</ul>
+</blockquote>
+<h1 id="2、配置Hexo的Butterfly主题"><a href="#2、配置Hexo的Butterfly主题" class="headerlink" title="2、配置Hexo的Butterfly主题"></a>2、配置Hexo的Butterfly主题</h1><blockquote>
+<p>我觉得最好的主题没有之一，让自己的blog更好看</p>
+<p>主要参考<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">Jerry’s Blog</a>，里面写的很详细</p>
+<ul>
+<li>1、</li>
+<li>2、</li>
+<li>3、</li>
+<li>4、</li>
+<li>5、</li>
+<li>6、</li>
+<li>7、</li>
+<li>8、</li>
+<li>9、</li>
+<li>10、</li>
+<li>11、</li>
+<li>12、</li>
+<li>13、</li>
+<li>14、</li>
+<li>15、</li>
+<li>16、</li>
+<li>17、</li>
+</ul>
+</blockquote>
+<h1 id="3、优化Butterfly主题"><a href="#3、优化Butterfly主题" class="headerlink" title="3、优化Butterfly主题"></a>3、优化Butterfly主题</h1><h1 id="1、使用Hexo搭建个人博客"><a href="#1、使用Hexo搭建个人博客" class="headerlink" title="1、使用Hexo搭建个人博客"></a>1、使用Hexo搭建个人博客</h1><blockquote>
+<p>🖼一开始是参考 <a target="_blank" rel="noopener" href="https://www.zhihu.com/column/c_1201860091307458560">枫叶🍁</a> 大佬的next主题为主的个人博客的学习（不需要什么前置知识，真有手就行，域名）</p>
+<ul>
+<li>1、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/01/2/6/1/01/">准备邮箱并注册GitHub</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103268406">原文</a></li>
+<li>2、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/02/01/2/6/1/02/">配置Git</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103325381">原文</a></li>
+<li>3、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/03/2/6/1/03/">绑定GitHub并提交文件</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103391101">原文</a></li>
+<li>4、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/04/2/6/1/04/">购买域名</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103860494">原文</a></li>
+<li>5、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/05/2/6/1/05/">安装node.js和Hexo</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105715224">原文</a></li>
+<li>6、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/06/2/6/1/06/">解析域名</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/103813944">原文</a></li>
+<li>⭐️7、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/07/2/6/1/07/">设置next主题</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/105584373">原文</a></li>
+<li>8、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/08/2/6/1/08/">优化主题（持续更新）</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/106060640">原文</a></li>
+</ul>
+</blockquote>
+<h1 id="2、"><a href="#2、" class="headerlink" title="2、"></a>2、</h1><blockquote>
+<p>🖼请直接进入<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">开发者的Blog</a>进行相关配置，我觉得最好的主题没有之一</p>
+<p>⭐️1、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/09/2/6/1/09/">配置Butterfly主题</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/21cfbf15/">原文</a></p>
+<p>⭐️2、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/10/2/6/1/10/">主题页面说明</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/dc584b87/">原文</a></p>
+<p>⭐️3、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/11/2/6/1/11/">主题配置</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/4aa8abbe/">原文</a></p>
+<p>⭐️4、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/12/2/6/1/12/">主题美化</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/ceeb73f/">原文</a></p>
+<p>5、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/13/2/6/1/13/">主题问答</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/98d20436/">原文</a></p>
+<p>6、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/14/2/6/1/14/">进阶教程</a>，原文在这里：<a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/4073eda/">原文</a></p>
+<p>7、<a target="_blank" rel="noopener" href="https://ruiqingyan.com/2023/01/15/2/6/1/15/">主题页面</a>，原文在这里：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/106060640">原文</a></p>
+<p>如果要进行主题优化的话在第四部分找相关内容</p>
+</blockquote>
+<h1 id="3、配置Hexo的anzhiyu主题"><a href="#3、配置Hexo的anzhiyu主题" class="headerlink" title="3、配置Hexo的anzhiyu主题"></a>3、配置Hexo的anzhiyu主题</h1><blockquote>
+<p>🖼Butterfly改的主题，把hugo上一个动态主题改成了静态，就很好看。<a target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu">项目在这里</a></p>
+<p>1、<a target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu">项目在这里</a></p>
+<p>2、<a target="_blank" rel="noopener" href="https://docs.anheyu.com/">文档在这里</a></p>
+</blockquote>
+<h1 id="4、其他相关"><a href="#4、其他相关" class="headerlink" title="4、其他相关"></a>4、其他相关</h1><blockquote>
+<p>🖼主要是看了很多博客，但是最后都要自己摸索怎么做，这里做一个汇总（有问题可以问我会加进去）</p>
+<ul>
+<li>1、怎么批量爬取自己需要的图</li>
+<li>2、Blog的markdown文章编写指南</li>
+<li>3、如何优化主题？优化思路是什么？比较优秀的博客？</li>
+<li>4、Mac图床<a target="_blank" rel="noopener" href="https://blog.csdn.net/Cupster/article/details/113805054?ops_request_misc=&request_id=&biz_id=102&utm_term=upic&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-113805054.nonecase&spm=1018.2226.3001.4187">uPic</a>，Windows图床可以看看这个<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/648359245?utm_id=0">EasyImage</a></li>
+<li>5、<a target="_blank" rel="noopener" href="https://www.iconfont.cn/">阿里矢量图标库</a>配置项目图标</li>
+<li>6、未完待续</li>
+</ul>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://next.ruiqingyan.com/2023/01/01/261/00/" data-id="closq5shu00028x9k5cmo2hsz" data-title="Blog个人博客" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Blog%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="tag">Blog个人博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%85%B4%E8%B6%A3%E8%AF%BE/" rel="tag">兴趣课</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2023/01/01/261/01/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          1-1、注册163邮箱
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B4%E8%B6%A3%E8%AF%BE/">兴趣课</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B4%E8%B6%A3%E8%AF%BE/Blog%E5%85%A8%E7%A8%8B%E6%90%AD%E5%BB%BA/">Blog全程搭建</a></li></ul></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blog%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="tag">Blog个人博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%B4%E8%B6%A3%E8%AF%BE/" rel="tag">兴趣课</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Blog%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">Blog个人博客</a> <a href="/tags/%E5%85%B4%E8%B6%A3%E8%AF%BE/" style="font-size: 10px;">兴趣课</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">一月 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/11/10/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/08/261/08/">1-8、解析域名</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/07/261/07/">1-7、购买域名</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/06/261/06/">1-6、本地hexo项目推送到github</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/05/261/05/">1-5、本地部署hexo项目</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 花夕<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
